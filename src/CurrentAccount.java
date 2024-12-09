@@ -62,3 +62,35 @@ public class CurrentAccount {
     public Date getBirthDate() { return birthDate; }
     public double getBalance() { return balance; }
 }
+
+/*
+public class ContaCorrente {
+    Integer numero;
+    Integer agencia;
+    String nomeCliente;
+    LocalDate dataNascimento;
+    Double saldo;
+    boolean ativo = true;
+
+    Double consultarSaldo() {
+
+        return saldo;
+    }
+
+    List consultarExtrato (LocalDate dataInicial, LocaaDate dataFinal ) { //Esse mét0do possui o tipo de retorno list. Se o mét0do fosse declarado com o tipo de retorno void, ele não precisaría retornar nada.
+
+        return ?
+    }
+
+    void cancelar(String justificativa) {
+        algoritmo irá manipular o atributo
+        ativo para que se torne false
+    }
+
+    void transferir( ContaCorrente contaDestino,
+                     Double valorTransferio ) {
+                     }
+
+
+}
+ */
