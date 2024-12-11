@@ -34,10 +34,12 @@ public class TypesWrappers {
 
         //Podemos utilizar operadores lógicos:
         System.out.print(obj1 > obj2);
-
         //Obs: Sempre é recomendado que use o compareTo para comparações mais precisas.
 
+        int fabricationYear = 2021;
+        //reatribuir
 
+        fabricationYear = 2022;
 
     }
 }
