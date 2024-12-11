@@ -22,5 +22,22 @@ public class TypesWrappers {
 
         double c = Double.parseDouble(num_two);
         System.out.println(c); //100
+
+
+        //Se você quiser comparar 2 objetos fará da seguinte forma:
+        Integer obj1 = Integer.valueOf("100");
+        Integer obj2 = Integer.valueOf("101");
+
+        System.out.println(obj1.equals(obj2));
+
+        System.out.println(obj1.compareTo(obj2));
+
+        //Podemos utilizar operadores lógicos:
+        System.out.print(obj1 > obj2);
+
+        //Obs: Sempre é recomendado que use o compareTo para comparações mais precisas.
+
+
+
     }
 }
