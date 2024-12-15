@@ -16,7 +16,7 @@ public class Logics {
         int number1 = 1;
         int number2 = 2;
 
-        if(number1==2 & number2 ++ == 2) //Dessa forma ele vai fazer a comparação das duas variáveis.
+        if(number1==2 & number2 ++ == 2) //Dessa forma ele vai fazer a comparação das duas variáveis. é mais apropriado você utilizar em vez de 1 simbolo | ou &, utilize 2 simbolos && ||.
             System.out.println("Two conditions is true.");
 
         System.out.println("The number is =" + number1);
